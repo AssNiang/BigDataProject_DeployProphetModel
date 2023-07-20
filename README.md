@@ -50,8 +50,20 @@ git remote add origin https://github.com/AssNiang/BigDataProject_DeployProphetMo
 git push -u origin main
 ```
 
+[Open Github](https://github.com/AssNiang/BigDataProject_DeployProphetModel.git)
+
 ### 7. Clone the project from Github
 
 ```bash
 git clone https://github.com/AssNiang/BigDataProject_DeployProphetModel.git
 ```
+
+### 8. Sources
+
+[https://machinelearningmastery.com/time-series-forecasting-with-prophet-in-python/]
+
+[https://fastapi.tiangolo.com/deployment/docker/]
+
+[https://www.youtube.com/watch?v=h5wLuVDr0oc]
+
+[https://dev.meteostat.net/]
