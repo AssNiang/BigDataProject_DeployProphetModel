@@ -31,7 +31,9 @@ docker run -d --name predict-temp-container -p 80:80 predict-temp
 ### 5. Access the API
 
 [API / home](http://localhost:80)
+
 [API / docs](http://localhost:80/docs)
+
 [API / predict next 3 hours temperature](http://localhost:80/predict-next-3-hours-temp)
 
 
