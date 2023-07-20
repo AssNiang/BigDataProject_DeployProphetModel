@@ -12,7 +12,23 @@ docker build -t predict-temp .
 docker run -d --name predict-temp-container -p 80:80 predict-temp
 ```
 
-### 3. Save the project in a Git repo
+### 3. Save the Docker image in Dockerhub
+
+```bash
+docker tag predict-temp sas792/predict-temp
+
+docker push sas792/predict-temp
+```
+
+### 4. Download and Run the Docker image from Dockerhub
+
+```bash
+docker pull sas792/predict-temp
+
+docker run -d --name predict-temp-container -p 80:80 predict-temp
+```
+
+### 5. Save the project in Github
 
 If you clone this repo this step is not needed. Or you can delete this git repo with `rm -rf .git` and start with a new one:
 
@@ -25,3 +41,8 @@ git remote add origin https://github.com/AssNiang/BigDataProject_DeployProphetMo
 git push -u origin main
 ```
 
+### 6. Clone the project from Github
+
+```bash
+git clone https://github.com/AssNiang/BigDataProject_DeployProphetModel.git
+```
