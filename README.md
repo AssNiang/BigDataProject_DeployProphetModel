@@ -25,7 +25,7 @@ docker push sas792/predict-temp
 ```bash
 docker pull sas792/predict-temp
 
-docker run -d --name predict-temp-container -p 80:80 predict-temp
+docker run -d --name predict-temp-container -p 80:80 sas792/predict-temp
 ```
 
 ### 5. Access the API
